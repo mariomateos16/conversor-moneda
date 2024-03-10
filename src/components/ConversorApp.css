@@ -1,0 +1,121 @@
+body {
+    background-color: beige;
+}
+
+.ConversorContainer {
+    background-color: #151C24;
+    width: 400px;
+    height: 350px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #151C24;
+    padding: 20px;
+    border-radius: 15px;
+    transition: all 200ms ease-in;
+    box-shadow: 0px 0px 25px 5px rgba(179, 179, 179, 1);
+}
+
+h2 {
+    font-size: 34px;
+    color: #fff;
+    font-weight: bold;
+    font: optional;
+}
+
+.CurrencyInput {
+    display: flex;
+    align-items: center;
+    margin-top: -20px;
+    gap: 15px;
+}
+
+.CurrencyInput div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.CurrencyInput label {
+    margin-bottom: 5px;
+    color: #fff;
+}
+
+.CurrencyInput select {
+    width: 48%;
+    padding: 5px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+
+
+.form-select {
+    width: 48%;
+    padding: 5px;
+    border-radius: 20px;
+}
+
+.resultContainer {
+    width: 100%;
+    margin-bottom: 10px;
+    margin-top: -30px;
+}
+
+.input-group {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-control {
+    width: 70%;
+    margin-top: 10px; 
+    padding: 5px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.input-group-text {
+    width: 70%; 
+    height: 30%;
+    color: #151C24;
+    font-size: 1rem;
+    padding: 10px 10px;
+    background-color: #fff;
+    border-radius: 20px;
+    margin-top: 10px; 
+}
+
+.btn-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.btn_container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.btn {
+    width: 48%;
+    padding: 10px;
+    font-size: 1rem;
+    background-color: beige;
+    color: #151C24;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 200ms ease-in-out;
+}
+
+.btn:hover {
+    background-color: rgb(110, 110, 95);
+    color: #fff;
+}
