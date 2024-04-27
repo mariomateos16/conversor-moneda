@@ -1,5 +1,6 @@
 body {
     background-color: beige;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .ConversorContainer {
@@ -21,8 +22,9 @@ body {
 h2 {
     font-size: 34px;
     color: #fff;
-    font-weight: bold;
+    font-weight: 700;
     font: optional;
+
 }
 
 .CurrencyInput {
@@ -39,13 +41,14 @@ h2 {
 }
 
 .CurrencyInput label {
+    font-size: 1.2rem;
     margin-bottom: 5px;
     color: #fff;
 }
 
 .CurrencyInput select {
     width: 48%;
-    padding: 5px;
+    padding: 10px;
     border-radius: 20px;
     margin-bottom: 10px;
 }
